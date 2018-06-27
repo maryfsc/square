@@ -1,21 +1,44 @@
-#mother {
+.mother {
 	height: 300px;
 	width: 300px;
-	background-color: red;
-	display: flex;
-	justify-content: center;
+	margin: 10px;
 }
 
-#purple {
+section.daughter {
 	height: 50%;
 	width: 50%;
+}
+
+.red {
+		background-color: red;
+		display: flex;
+		justify-content: center;
+}
+
+.blue {
+	background-color: blue;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.purple {
 	background-color: purple;
 	position: relative;
 	top: 70px;
 }
 
-#yellow {
-	height: 50%;
-	width: 50%;
+.yellow {
 	background-color: yellow;
+}
+
+.green {
+	background-color: green;
+	position: relative;
+	top: 70px;
+}
+
+.black {
+	background-color: black;
+	height: 24%;
+	width: 24%;
 }
