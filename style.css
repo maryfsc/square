@@ -1,0 +1,21 @@
+#mother {
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+}
+
+#purple {
+	height: 50%;
+	width: 50%;
+	background-color: purple;
+	position: relative;
+	top: 70px;
+}
+
+#yellow {
+	height: 50%;
+	width: 50%;
+	background-color: yellow;
+}
